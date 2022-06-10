@@ -34,6 +34,7 @@ body {
     background-color: var(--Pale-blue);
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
 .background-1 {
@@ -207,8 +208,10 @@ button {
     }
 
     .container {
-        width: 300px;
-        margin-top: 4rem;
+        max-width: 350px;
+        margin: 10%;
+        ;
+        margin-top: 3rem;
     }
 
     .container ul li:nth-child(2) {
